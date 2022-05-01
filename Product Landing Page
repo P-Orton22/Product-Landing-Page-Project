@@ -21,5 +21,15 @@
                     <a class="nav-link" href="">C</a>
                 </li>
             </ul>
+        <div class="container">
+            <div id="features">
+                <div class="grid">
+                    <div class="description">
+                        <h2>Unique Pigment Blend</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quae, corporis dicta beatae illo, at minima doloribus necessitatibus, labore non unde totam nobis minus iusto accusantium ad nulla dolore voluptate?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 </body>
