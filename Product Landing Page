@@ -12,13 +12,13 @@
         <nav id="nav-bar">
             <ul>
                 <li>
-                    <a class="nav-link" href="">A</a>
+                    <a class="nav-link" href="#features">Features</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="">B</a>
+                    <a class="nav-link" href="#how-it-works">How it Works</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="">C</a>
+                    <a class="nav-link" href="#pricing">Pricing</a>
                 </li>
             </ul>
         <div class="container">
@@ -33,8 +33,18 @@
                         <h2>Battle Ready in 3 Easy Steps</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id adipisci tenetur iure earum obcaecati voluptatibus soluta nihil, impedit quidem amet reiciendis placeat quod accusantium, dolor molestiae alias. Ducimus, blanditiis reiciendis!</p>
                     </div>
+                    <div class="description">
+                        <h2>Contrast or Classic</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id adipisci tenetur iure earum obcaecati voluptatibus soluta nihil, impedit quidem amet reiciendis placeat quod accusantium, dolor molestiae alias. Ducimus, blanditiis reiciendis!</p>
+                    </div>
                 </div>
                 </div>
+            </div>
+            <div id="how-it-works">
+
+            </div>
+            <div id="pricing">
+                
             </div>
         </div>
     </header>
