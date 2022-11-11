@@ -1,95 +1,99 @@
 <!DOCTYPE html>
 <head>
     <style>
-
+        #page-wrapper{
+        position: relative;
+        }
     </style>
 </head>
 <body>
-    <header id="header">
-        <div class="logo">
-            <img id="header-img" src="https://bekramodels.co.uk/wp-content/uploads/2020/10/https___trade.games-workshop.com_assets_2019_05_Citadel-Colour-3-logo.png" alt="citadel colour logo">
-        </div>
-        <nav id="nav-bar">
-            <ul>
-                <li>
-                    <a class="nav-link" href="#features">Features</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#how-it-works">How it Works</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#pricing">Pricing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div id="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="https://bekramodels.co.uk/wp-content/uploads/2020/10/https___trade.games-workshop.com_assets_2019_05_Citadel-Colour-3-logo.png" alt="citadel colour logo">
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#how-it-works">How it Works</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-        <div class="container">
-            <div id="features">
-                <div class="grid">
-                    <div class="description">
-                        <h2>Unique Pigment Blend</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quae, corporis dicta beatae illo, at minima doloribus necessitatibus, labore non unde totam nobis minus iusto accusantium ad nulla dolore voluptate?</p>
+            <div class="container">
+                <div id="features">
+                    <div class="grid">
+                        <div class="description">
+                            <h2>Unique Pigment Blend</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quae, corporis dicta beatae illo, at minima doloribus necessitatibus, labore non unde totam nobis minus iusto accusantium ad nulla dolore voluptate?</p>
+                        </div>
+                    <div class="grid">
+                        <div class="description">
+                            <h2>Battle Ready in 3 Easy Steps</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id adipisci tenetur iure earum obcaecati voluptatibus soluta nihil, impedit quidem amet reiciendis placeat quod accusantium, dolor molestiae alias. Ducimus, blanditiis reiciendis!</p>
+                        </div>
+                        <div class="description">
+                            <h2>Contrast or Classic</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id adipisci tenetur iure earum obcaecati voluptatibus soluta nihil, impedit quidem amet reiciendis placeat quod accusantium, dolor molestiae alias. Ducimus, blanditiis reiciendis!</p>
+                        </div>
                     </div>
-                <div class="grid">
-                    <div class="description">
-                        <h2>Battle Ready in 3 Easy Steps</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id adipisci tenetur iure earum obcaecati voluptatibus soluta nihil, impedit quidem amet reiciendis placeat quod accusantium, dolor molestiae alias. Ducimus, blanditiis reiciendis!</p>
-                    </div>
-                    <div class="description">
-                        <h2>Contrast or Classic</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id adipisci tenetur iure earum obcaecati voluptatibus soluta nihil, impedit quidem amet reiciendis placeat quod accusantium, dolor molestiae alias. Ducimus, blanditiis reiciendis!</p>
                     </div>
                 </div>
+                <div id="how-it-works">
+                    <iframe id="video" height="315" src="https://youtu.be/fQQ8YXA1xuo" allowfullscreen></iframe>
+                </div>
+                <div id="pricing">
+                    <div class="product" id="paint">
+                        <div class="level">Paint Bundle</div>
+                        <h2>£69</h2>
+                        <ol>
+                        <li>Base paint set.</li>
+                        <li>Layer paint set.</li>
+                        <li>Technical paint set.</li>
+                        <li>Contrast bundle.</li>
+                        </ol>
+                        <button class="button">Select</button>
+                    </div>
+                    </div>
+                    <div class="product" id="brush">
+                    <div class="level">Brush Bundle</div>
+                        <h2>£45</h2>
+                        <ol>
+                        <li>Base brush.</li>
+                        <li>Layer brush.</li>
+                        <li>Detail brush.</li>
+                        <li>Dry brush.</li>
+                        </ol>
+                        <button class="button">Select</button>
+                    </div>
+                    </div>
+                    <div class="product" id="tool">
+                    <div class="level">Complete Tool Set</div>
+                        <h2>£80</h2>
+                        <ol>
+                        <li>Sprue clippers.</li>
+                        <li>Craft knife.</li>
+                        <li>Assembly handle.</li>
+                        <li>File set.</li>
+                        </ol>
+                        <button class="button">Select</button>
+                    </div>
+                    </div>
+                </div>
+                <div id="hero">
+                    <h2>Paint Makes Warhammer</h2>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input name="email" id="email" type="email" placeholder="Enter your email address" required>
+                    <input id="submit" type="submit" value="Get Started" class="button">
+                    </form>
                 </div>
             </div>
-            <div id="how-it-works">
-                <iframe id="video" height="315" src="https://youtu.be/fQQ8YXA1xuo" allowfullscreen></iframe>
-            </div>
-            <div id="pricing">
-                <div class="product" id="paint">
-                    <div class="level">Paint Bundle</div>
-                    <h2>£69</h2>
-                    <ol>
-                      <li>Base paint set.</li>
-                      <li>Layer paint set.</li>
-                      <li>Technical paint set.</li>
-                      <li>Contrast bundle.</li>
-                    </ol>
-                    <button class="button">Select</button>
-                  </div>
-                </div>
-                <div class="product" id="brush">
-                  <div class="level">Brush Bundle</div>
-                    <h2>£45</h2>
-                    <ol>
-                      <li>Base brush.</li>
-                      <li>Layer brush.</li>
-                      <li>Detail brush.</li>
-                      <li>Dry brush.</li>
-                    </ol>
-                    <button class="button">Select</button>
-                  </div>
-                </div>
-                <div class="product" id="tool">
-                  <div class="level">Complete Tool Set</div>
-                    <h2>£80</h2>
-                    <ol>
-                      <li>Sprue clippers.</li>
-                      <li>Craft knife.</li>
-                      <li>Assembly handle.</li>
-                      <li>File set.</li>
-                    </ol>
-                    <button class="button">Select</button>
-                  </div>
-                </div>
-            </div>
-            <div id="hero">
-                <h2>Paint Makes Warhammer</h2>
-                <form id="form" action="https://www.freecodecamp.com/email-submit">
-                  <input name="email" id="email" type="email" placeholder="Enter your email address" required>
-                  <input id="submit" type="submit" value="Get Started" class="button">
-                </form>
-            </div>
-        </div>
+    </div>
 </body>
