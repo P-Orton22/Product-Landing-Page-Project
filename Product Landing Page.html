@@ -108,7 +108,26 @@
         border-radius: 3px;
         }
 
-        
+        #contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 200px;
+        margin-top: 50px;
+        }
+
+        .contact-button{
+        padding: 0 20px;
+        height: 25px;
+        font-size: 1em;
+        font-weight: 450;
+        text-transform: uppercase;
+        border: 2px black solid;
+        border-radius: 2px;
+        background: transparent;
+        }
 
     </style>
 
@@ -200,11 +219,11 @@
                     </div>
                 </div>
 
-                <div id="hero">
+                <div id="contact">
                     <h2>Paint Makes Warhammer</h2>
                     <form id="form" action="https://www.freecodecamp.com/email-submit">
                     <input name="email" id="email" type="email" placeholder="Enter your email address" required>
-                    <input id="submit" type="submit" value="Get Started" class="button">
+                    <input id="submit" type="submit" value="Get Started" class="contact-button">
                     </form>
                 </div>
             </div>
